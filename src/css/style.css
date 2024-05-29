@@ -1,0 +1,58 @@
+:root {
+    --p-background-dark: rgb(24,23,22);
+}
+body{
+    background-color: var(--p-background-dark);
+    
+}
+.container{
+    width: min(100% - 30px,1080px);
+    margin-inline: auto;
+}
+main{
+    padding: 60px 0px;
+    height:100svh;
+    display: grid;
+    place-items: center;
+    div{
+        text-align: center;
+    }
+}
+
+section{
+    margin-top: 60px;
+}
+
+h1, h2,h3, p, li, a{
+    color: #fff;
+}
+h2{
+    font-size: 2.2rem;
+}
+p{
+    font-size: 0.85rem;
+}
+
+.mt-20{
+
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1;
+    span{
+        color:#00f3b6;
+    }
+}
+input{
+    width:200px;
+    height:44px;
+    margin-top:40px;
+    padding:0 20px;
+    border-radius: 50px;
+    border:1px solid rgb (255 255 255 /5%);
+    background-color: rgb (255 255 255 /5%);
+    font-size: 1.8rem;
+    text-align:center;
+}
